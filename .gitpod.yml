@@ -8,7 +8,7 @@ tasks:
       unzip awscliv2.zip
       )
     command: |
-      sudo ./aws/installterr  
+      sudo ./aws/install 
   - name: Terraform
     init: |
       (
